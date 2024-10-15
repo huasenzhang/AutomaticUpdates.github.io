@@ -4,14 +4,189 @@ http://116.162.6.191/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226320/index.m3
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="新闻",凤凰中文
 http://116.162.6.191/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221226317/index.m3u8
 #EXTINF:-1 tvg-id="寰宇新闻" tvg-name="寰宇新闻" tvg-logo="https://live.fanmingming.com/tv/寰宇新闻.png" group-title="新闻",寰宇新闻
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976479/ei/_8ENZ-_GA6bGsfIP3LGOuQc/ip/104.194.80.224/id/6IquAgfvYmc.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-a5meknd6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxdLdXiIQVDDLuQZOG9rKD62yzFAjD9ibRzwuoBdx5EOuSPpITghao6uR/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954880,/mh/M0/mm/44/mn/sn-a5meknd6/ms/lva/mv/m/mvi/2/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312687/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAO5p6_AhGRshmKi_6WB3JBUyMHOaGEwLH_wp9JVgXnNnAiADtn8s0qXi5FRzEPNEnC8weN4omlemuarCBpgS3UZf9A%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRgIhAJIi2qJ8dGFKV7FZ_vjO8Fb5SQouEEJpyEDsmJqqryaZAiEAr93lVV1iD4xDsuVnD20wP0q4GtJs_EOqpgqVA__mobI%3D/playlist/index.m3u8
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+ERROR: [youtube] 6IquAgfvYmc: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Administrator\myenv\Scripts\yt-dlp.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 1081, in main
+    _exit(*variadic(_real_main(argv)))
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 979, in _real_main
+    with YoutubeDL(ydl_opts) as ydl:
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 988, in __exit__
+    self.close()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 991, in close
+    self.save_cookies()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 984, in save_cookies
+    self.cookiejar.save()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1286, in save
+    with self.open(filename, write=True) as f:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1241, in open
+    with open(file, 'w' if write else 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: "'C:\\Users\\Administrator\\Desktop\\cookie.txt'"
+
 #EXTINF:-1 tvg-id="中天新闻台" tvg-name="中天新闻台" tvg-logo="https://live.fanmingming.com/tv/中天新闻台.png" group-title="新闻",中天新闻台
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976483/ei/A8INZ7HpBvjasfIPuZS3yQc/ip/104.194.80.224/id/oIgbl7t0S_w.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-a5mekn6d.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxQOoHCW4B4NkDalgIVlRWs2RLAY1jyxb5hh5LYx4CF2njbDGHiSf4B-E/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954885,/mh/Qu/mm/44/mn/sn-a5mekn6d/ms/lva/mv/m/mvi/3/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312687/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAIyAjk7zIzsstWtmekDluvpv9KEt3AAVC2rE7Tojo5oAAiAOaDBy-bKQdIJvhzxmiP2kiGUI3PsAfCTMHFnHiqKUvw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRgIhALqlk0oPorSApuUufXUji1wV-knCtgBNm-62J58pa9AWAiEApvJF6kPPm2R33Bb82cl_zsK3yTijH0hhTOgu1Fw-tjU%3D/playlist/index.m3u8
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+ERROR: [youtube] oIgbl7t0S_w: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Administrator\myenv\Scripts\yt-dlp.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 1081, in main
+    _exit(*variadic(_real_main(argv)))
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 979, in _real_main
+    with YoutubeDL(ydl_opts) as ydl:
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 988, in __exit__
+    self.close()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 991, in close
+    self.save_cookies()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 984, in save_cookies
+    self.cookiejar.save()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1286, in save
+    with self.open(filename, write=True) as f:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1241, in open
+    with open(file, 'w' if write else 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: "'C:\\Users\\Administrator\\Desktop\\cookie.txt'"
+
 #EXTINF:-1 tvg-id="TVBS新闻" tvg-name="TVBS新闻" tvg-logo="https://live.fanmingming.com/tv/TVBS新闻.png" group-title="新闻",TVBS新闻
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976487/ei/B8INZ7_iCLaTsfIPkYPRwAg/ip/104.194.80.224/id/2mCSYvcfhtc.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-a5msenl7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/us/spc/54MbxcV004nGPfJgxwQFb_-MlnA9eNhYY0OXCqS1kb6331X4RllgZ0wJvIPobqU/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954889,/mh/9_/mm/44/mn/sn-a5msenl7/ms/lva/mv/m/mvi/2/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312688/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AJfQdSswRAIgPWfQXsKwyfdxtOFd4servl2S1bdK6Jtcbf8nOfOxirsCIBBVe9dALdpCEnHwnn5pZJv3nNKqEQu4SUX1jmAK1sjC/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRgIhAJikb-nC-VrgYdGwq2bW66rkWVvZil7lgZMi9jvLdhC8AiEAlWXvVndDXXrYIoCB2drfv_Ydg2zKFN9GWDkeP3b0cWw%3D/playlist/index.m3u8
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+ERROR: [youtube] 2mCSYvcfhtc: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Administrator\myenv\Scripts\yt-dlp.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 1081, in main
+    _exit(*variadic(_real_main(argv)))
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 979, in _real_main
+    with YoutubeDL(ydl_opts) as ydl:
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 988, in __exit__
+    self.close()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 991, in close
+    self.save_cookies()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 984, in save_cookies
+    self.cookiejar.save()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1286, in save
+    with self.open(filename, write=True) as f:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1241, in open
+    with open(file, 'w' if write else 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: "'C:\\Users\\Administrator\\Desktop\\cookie.txt'"
+
 #EXTINF:-1 tvg-id="中视新闻" tvg-name="中视新闻" tvg-logo="https://live.fanmingming.com/tv/中视新闻.png" group-title="新闻",中视新闻
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976491/ei/C8INZ6iUDNKZsfIPwMGfmAk/ip/104.194.80.224/id/TCnaIE_SAtM.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr5---sn-a5meknzk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxQ4KXJgdPsHH21USA3XDIDBh1cGR8HauGuTEy5falDAO4nPKlr5r0Ll2/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954893,/mh/eb/mm/44/mn/sn-a5meknzk/ms/lva/mv/m/mvi/5/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300760,51312687/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgCfjbO96opn6N4Xz6xfbxWVFJsU_3yLIZlXm3i5Wfz0ACIB1j4HWwpoKxzjhMAf8SE5X5177p1sronenAOjrokrsC/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRAIgSxAKavGpnCn79ZHGTRub0tOf76ygwGEkuHt-AHV7tsgCIHuv3lh7W31zT1k95BxLmmZN8YlIPor5MQ3MXeXP9yGG/playlist/index.m3u8
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+ERROR: [youtube] TCnaIE_SAtM: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Administrator\myenv\Scripts\yt-dlp.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 1081, in main
+    _exit(*variadic(_real_main(argv)))
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 979, in _real_main
+    with YoutubeDL(ydl_opts) as ydl:
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 988, in __exit__
+    self.close()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 991, in close
+    self.save_cookies()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 984, in save_cookies
+    self.cookiejar.save()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1286, in save
+    with self.open(filename, write=True) as f:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1241, in open
+    with open(file, 'w' if write else 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: "'C:\\Users\\Administrator\\Desktop\\cookie.txt'"
+
 #EXTINF:-1 tvg-id="東森新聞" tvg-name="東森新聞" tvg-logo="https://live.fanmingming.com/tv/東森新聞.png" group-title="新闻",東森新聞
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976495/ei/D8INZ-juDfKYsfIP6qG08AM/ip/104.194.80.224/id/V1p33hqPrUk.58/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-a5msenl7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxcvteOQO2Iz9vQ4BBosXJAswF-m9SmIPYmg1ZnxEgbRFbadirs4oinsLS5k/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954897,/mh/56/mm/44/mn/sn-a5msenl7/ms/lva/mv/m/mvi/2/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312688/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAN1iw78oThzLOm5NzC2r_XSHh84Y-9FLenfaecwE30IgAiAkvx5_pGzd8pPlqD7NgCaRGTqDCGm5DCRUH-Js9iFRug%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRAIgJ1c2baC4ia1THqpa8_hfNUEnTjOv9VhR6R0RvCSYLMYCIEtSEe87LurlFpClaNfv6Db31oTX7kXIHuO5EfbxfNIN/playlist/index.m3u8
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+WARNING: [youtube] Unable to download webpage: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (1/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (2/3)...
+WARNING: [youtube] HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0). Retrying (3/3)...
+WARNING: [youtube] Unable to download API page: HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='www.youtube.com', port=443): Read timed out. (read timeout=20.0)"))
+ERROR: [youtube] V1p33hqPrUk: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Administrator\myenv\Scripts\yt-dlp.exe\__main__.py", line 7, in <module>
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 1081, in main
+    _exit(*variadic(_real_main(argv)))
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\__init__.py", line 979, in _real_main
+    with YoutubeDL(ydl_opts) as ydl:
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 988, in __exit__
+    self.close()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 991, in close
+    self.save_cookies()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\YoutubeDL.py", line 984, in save_cookies
+    self.cookiejar.save()
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1286, in save
+    with self.open(filename, write=True) as f:
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\myenv\Lib\site-packages\yt_dlp\cookies.py", line 1241, in open
+    with open(file, 'w' if write else 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: "'C:\\Users\\Administrator\\Desktop\\cookie.txt'"
+
 #EXTINF:-1 tvg-id="台视新闻" tvg-name="台视新闻" tvg-logo="https://live.fanmingming.com/tv/台视新闻.png" group-title="新闻",台视新闻
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728976499/ei/E8INZ8CVE6aWsfIPqOSFiAk/ip/104.194.80.224/id/xL0ch83RAK8.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-a5mekn6z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxTIamGSVjt35oNlw6CkBhNjxm4rCMoB2z-cqhZcChHOV5cEtptauB9UR/vprv/1/playlist_type/DVR/initcwndbps/2088750/met/1728954901,/mh/r6/mm/44/mn/sn-a5mekn6z/ms/lva/mv/m/mvi/3/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312687/mt/1728954510/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgKJ3F2D1dZzRKxjOQaAKqkU-StHKPTlopo4a3T-Lt9-sCIQCpOdqB7v4twKEaDDcD1MsVhEBK_y8VzEqnuwYdOMn0Tw%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRQIhAIuPziFnp2oGbL8Cue4CS01fPHNzocVMkAB9iOAxgbugAiBqOS141xpofKzxS8S32AHcowMCtmTovK3LYVr22CfMLw%3D%3D/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1728995704/ei/GA0OZ76WJJyRsfIPoffjwA8/ip/104.194.80.224/id/xL0ch83RAK8.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-a5mekn6z.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/54MbxdbD6XBgUoLkd5SQZRaUAAxYpGkgMVkwfeoLsXSxZZKK1E1cUFETqRcpIb8/vprv/1/playlist_type/DVR/initcwndbps/1553750/met/1728974105,/mh/r6/mm/44/mn/sn-a5mekn6z/ms/lva/mv/m/mvi/3/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51300761,51312688/mt/1728973711/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgV_XcpdjioQojXi2gauJpOvZ8vboVLedJNf0LkTqRFqACICX2nQmrBCSuPjUB-HSC5m1uRQOyTrWVlSWaUpP0eV4A/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/ACJ0pHgwRQIgN7hy-JWR7J3mOZc57gj4NRGA9GQ3ENbrpV8tohZN758CIQCC3jOeFWbWxQFJAdIMbtU1p8yvr1p83Pq6yCN3TqzM-w%3D%3D/playlist/index.m3u8
